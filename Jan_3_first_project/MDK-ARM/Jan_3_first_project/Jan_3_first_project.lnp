@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"jan_3_first_project\stm32f1xx_hal_pwr.o"
+"jan_3_first_project\stm32f1xx_hal_gpio.o"
+"jan_3_first_project\stm32f1xx_hal_tim_ex.o"
+"jan_3_first_project\stm32f1xx_hal_gpio_ex.o"
+"jan_3_first_project\stm32f1xx_hal_flash_ex.o"
+"jan_3_first_project\stm32f1xx_hal_tim.o"
+"jan_3_first_project\stm32f1xx_hal_cortex.o"
+"jan_3_first_project\stm32f1xx_hal_rcc.o"
+"jan_3_first_project\stm32f1xx_hal_rcc_ex.o"
+"jan_3_first_project\stm32f1xx_hal_dma.o"
+"jan_3_first_project\stm32f1xx_hal.o"
+"jan_3_first_project\stm32f1xx_hal_flash.o"
+"jan_3_first_project\stm32f1xx_hal_uart.o"
+"jan_3_first_project\startup_stm32f103xb.o"
+"jan_3_first_project\main.o"
+"jan_3_first_project\stm32f1xx_it.o"
+"jan_3_first_project\stm32f1xx_hal_msp.o"
+"jan_3_first_project\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Jan_3_first_project\Jan_3_first_project.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Jan_3_first_project.map" -o Jan_3_first_project\Jan_3_first_project.axf
